@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #d2c6b1;
+  font-family: "Poppins", sans-serif;
+}
+
+.content{
+  align-items: center;
+  border-radius: 16px;
+  width: 45%;
+  margin: auto;
+  margin-top: 30vh;
+  display: flex;
+  background: white;
+  height: 430px;
+}
+
+
+
+.content-left{
+  width: 50%;
+  height: 100%;
+
+}
+
+.content-left > img{
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+
+.content-right{
+  width: 50%;
+  height: 100%;
+  padding: 25px;
+}
+
+.content-right > h2{
+  margin: 10px 0;
+}
+
+.perfume{
+  color: rgba(128, 128, 128, 0.68);
+  letter-spacing: 5px;
+
+}
+
+.desc{
+  color: rgba(128, 128, 128, 0.68);
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.price > h1{
+  color: #1b7c21;
+}
+
+.price > p {
+  margin-left: 20px;
+  text-decoration: line-through;
+  color: rgba(128, 128, 128, 0.68);
+
+}
+
+
+.buy-button > button{
+  background: #1b7c21;
+  justify-content: center;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+}
+.buy-button > button > img {
+  margin-right: 5px;
+}
